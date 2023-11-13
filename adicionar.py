@@ -1,5 +1,5 @@
 def adicionarUsuario():
-    with open ('manipulaçãoDeArquivos/listaExerciciosManipulacao/AgendaDeContato/contatos.txt', 'w') as listaDeContatos:
+    with open ('manipulaçãoDeArquivos/listaExerciciosManipulacao/AgendaDeContato/contatos.txt', 'w') as Contatos_telefonicos:
             
             nome_contato = input("Digite o nome do contato: ")
             ddd_contato = int(input("Digite o DDD: "))
